@@ -1,0 +1,271 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Logan Paul, Vine to Now</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Black and gold, a Maverick-style palette. Layout: one reading column; KPI row, findings, three charts, filterable timeline, ventures table, data notes. */
+:root{
+  color-scheme:dark;
+  --page:#0a0a0a;--surface:#141414;--ink:#f4f1e8;--ink2:#b9b5a8;--muted:#8a867b;
+  --grid:#262624;--axis:#3a3935;--s1:#f5b800;--s1wash:rgba(245,184,0,.12);--on-accent:#0a0a0a;
+  --neutral:#5a584f;--border:rgba(255,255,255,.10);--wash:rgba(255,255,255,.06);
+  --font:system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+body{background:var(--page);color:var(--ink);font:14px/1.5 var(--font);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1:after{content:"";display:block;width:56px;height:4px;background:var(--s1);margin-top:12px}
+h1{font-size:clamp(26px,5vw,36px);line-height:1.1;margin:0 0 8px;font-weight:650;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:18px;margin:0 0 4px;font-weight:650;text-wrap:balance}
+h3{font-size:14px;margin:0;font-weight:650}
+p{margin:0}
+.sub{color:var(--ink2);max-width:62ch}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.kpi:first-child .kv{color:var(--s1)}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;min-width:0}
+.kl{color:var(--ink2);font-size:12px}
+.kv{font-size:30px;font-weight:650;line-height:1.15;margin:2px 0}
+.ks{color:var(--ink2);font-size:12px}
+.finds{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.find h3{margin-bottom:4px}
+.find p{color:var(--ink2);max-width:60ch}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:18px 18px 14px;min-width:0}
+.card .cap{color:var(--ink2);font-size:13px;margin-bottom:12px;max-width:70ch}
+#c-tl{width:100%;min-width:0}
+svg text{font-family:var(--font)}
+.ax{font-size:11px;fill:var(--muted)}
+.ev{font-size:11px;fill:var(--ink2)}
+.endl{font-size:12px;font-weight:650;fill:var(--ink)}
+.note-in{font-size:11px;fill:var(--ink2)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.brow{display:grid;grid-template-columns:minmax(104px,150px) minmax(0,1fr);gap:10px;align-items:center;padding:3px 0;border-radius:4px}
+.brow:hover,.brow:focus-visible{background:var(--wash);outline:none}
+.blab{font-size:12px;color:var(--ink);line-height:1.25}
+.blab small{display:block;color:var(--ink2);font-size:11px}
+.btrack{display:flex;align-items:center;gap:8px;height:28px;border-left:1px solid var(--axis);min-width:0}
+.bar{height:18px;background:var(--s1);border-radius:0 4px 4px 0;flex:none}
+.bar.n{background:var(--neutral)}
+.bval{font-size:12px;font-weight:650;white-space:nowrap}
+.legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--ink2);font-size:12px;margin-bottom:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--s1)}
+.legend i.n{background:var(--neutral)}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--ink2);font-size:12px}
+.tw{overflow-x:auto;margin-top:8px}
+table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--grid);vertical-align:top}
+th{color:var(--ink2);font-weight:600;white-space:nowrap}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+.chip{font:inherit;font-size:13px;color:var(--ink);background:transparent;border:1px solid var(--border);border-radius:999px;padding:5px 12px;cursor:pointer}
+.chip:hover{background:var(--wash)}
+.chip[aria-pressed="true"]{background:var(--s1);color:var(--on-accent);border-color:var(--s1);font-weight:650}
+.chip:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--s1);outline-offset:2px}
+.era{padding-top:18px}
+.era h3 span{color:var(--ink2);font-weight:400;margin-left:6px}
+.era>p{color:var(--ink2);font-size:13px;margin:2px 0 8px}
+.era ul{list-style:none;margin:0;padding:0}
+.era li{display:grid;grid-template-columns:92px minmax(0,1fr);gap:12px;padding:8px 0;border-top:1px solid var(--grid)}
+.era time{color:var(--ink2);font-size:12px;font-variant-numeric:tabular-nums;padding-top:1px}
+.meta{color:var(--ink2);font-size:12px;margin-top:2px}
+.meta a{color:var(--ink2)}
+.conf{border:1px solid var(--border);border-radius:4px;padding:0 5px}
+a{color:var(--s1)}
+.notes ul{margin:8px 0 0;padding-left:18px;color:var(--ink2);display:flex;flex-direction:column;gap:6px;max-width:74ch}
+#tip{position:fixed;z-index:20;max-width:280px;background:var(--ink);color:var(--surface);border-radius:6px;padding:8px 10px;font-size:12px;line-height:1.4;pointer-events:none;left:0;top:0}
+#tip span{opacity:.75}
+@media (max-width:480px){.era li{grid-template-columns:1fr;gap:2px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Logan Paul, Vine to Now</h1>
+    <p class="sub" id="lede"></p>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section class="finds" id="finds"></section>
+
+  <section class="card">
+    <h2>Main channel subscribers</h2>
+    <p class="cap">Logan Paul Vlogs, from the 10 million mark in August 2017 to November 2026. Lines join sparse snapshots, so growth between points is not observed. Most sources round to 0.1M.</p>
+    <div id="c-tl"></div>
+    <details><summary>Table view</summary><div class="tw" id="t-tl"></div></details>
+  </section>
+
+  <div class="two">
+    <section class="card">
+      <h2>Growth pace between snapshots</h2>
+      <p class="cap">Subscribers gained per 30 days on the main channel. Each row spans two snapshots.</p>
+      <div id="c-int"></div>
+      <details><summary>Table view</summary><div class="tw" id="t-int"></div></details>
+    </section>
+    <section class="card">
+      <h2>Audience across platforms</h2>
+      <p class="cap">Latest follower or subscriber counts. Audiences overlap, so the bars are not additive.</p>
+      <div class="legend"><span><i></i>Dated snapshot</span><span><i class="n"></i>Undated or historic</span></div>
+      <div id="c-aud"></div>
+      <details><summary>Table view</summary><div class="tw" id="t-aud"></div></details>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Career timeline</h2>
+    <p class="cap">Dated events grouped by era. Entries below high confidence are labeled.</p>
+    <div class="chips" id="chips"></div>
+    <div id="events"></div>
+  </section>
+
+  <section class="card">
+    <h2>Ventures and reported metrics</h2>
+    <p class="cap">Business figures are claims or press estimates, not audited results.</p>
+    <div class="tw" id="ventures"></div>
+  </section>
+
+  <section class="card notes">
+    <h2>Data notes</h2>
+    <ul>
+      <li>Counts come from third-party trackers and press coverage, not from platform APIs, so they are rounded and sometimes disagree.</li>
+      <li>Vine follower totals at shutdown range from 9.3M to 9.47M across sources, and sources date the shutdown to 2016 or 2017.</li>
+      <li>2019 to 2021 has the thinnest coverage: one subscriber snapshot (April 2020) between 2018 and 2022.</li>
+      <li>Sources conflict on when his WWE contract began (2022 or 2023).</li>
+      <li>CryptoZoo litigation entries are allegations and procedural events. Paul has denied wrongdoing, and the Coffeezilla suit was dismissed after a reported settlement.</li>
+      <li>Timing overlaps in this page are correlations. They do not show that one event caused a change in growth.</li>
+    </ul>
+  </section>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+(function(){
+const D={"summary": {"as_of": "2026-11-02", "youtube_main_subscribers": 23600000, "youtube_main_total_views": 6232548728, "vine_followers_at_shutdown": 9400000, "youtube_to_vine_ratio": 2.51, "days_to_10m_subscribers": 333, "lifetime_views_per_subscriber": 264.1, "views_last_28d": 8493954, "annualized_views_at_current_pace": 110724757, "annualized_pace_pct_of_lifetime_views": 1.78, "subs_gained_last_28d": 0, "peak_growth": {"window": "2017-08-12 to 2017-09-13", "gain_per_30d": 1500000}, "plateau": {"from": "2022-06-01", "to": "2026-11-02", "months": 53.1, "subs_gained": 200000, "gain_per_30d": 3770, "note": "Sources round to 0.1M, so the true gain could be roughly 0.1M to 0.3M"}, "controversy_window": {"before_gain_per_30d": 857143, "after_gain_per_30d": 540541, "note": "Correlation only: daily vlogging also ended in May 2018 and growth was already slowing"}, "event_count": 37, "snapshot_rows": 47}, "yt": [{"d": "2017-08-12", "prec": "day", "v": 10000000, "source": "Tubefilter", "url": "https://www.tubefilter.com/?p=101164", "conf": "high", "notes": "333 days; fastest to 10M in YouTube history per YouTube"}, {"d": "2017-09-13", "prec": "day", "v": 11600000, "source": "Tubefilter", "url": "https://tubefilter.com/2017/09/13/logan-paul-fastest-creator-10-million-subscribers/", "conf": "high", "notes": ""}, {"d": "2018-01-10", "prec": "day", "v": 15000000, "source": "Digital Trends (via Fox News)", "url": "https://noticias.foxnews.com/tech/youtube-punishes-logan-paul-for-japan-suicide-forest-video.print", "conf": "medium", "notes": "Reported as 'more than 15 million'; Billboard also gives 15M"}, {"d": "2018-05-01", "prec": "day", "v": 17000000, "source": "Tubefilter", "url": "https://www.tubefilter.com/2018/05/01/logan-paul-ceases-daily-vlog/amp/", "conf": "high", "notes": ""}, {"d": "2020-04-01", "prec": "day", "v": 20900000, "source": "LatestLY", "url": "https://www.latestly.com/social-viral/happy-birthday-logan-paul-10-intriguing-facts-about-the-american-youtuber-that-you-may-not-have-known-1649862.html", "conf": "medium", "notes": "Secondary source"}, {"d": "2022-06-01", "prec": "month", "v": 23400000, "source": "Sportskeeda", "url": "https://wiki.sportskeeda.com/tiktok/who-is-logan-paul", "conf": "medium", "notes": "Secondary aggregator"}, {"d": "2023-08-01", "prec": "month", "v": 23600000, "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium", "notes": ""}, {"d": "2026-07-18", "prec": "day", "v": 23600000, "source": "SpeakRJ", "url": "https://www.speakrj.com/audit/report/UCG8rbF3g2AMX70yOd8vqIZg/youtube", "conf": "medium", "notes": ""}, {"d": "2026-11-02", "prec": "day", "v": 23600000, "source": "vidIQ", "url": "https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg", "conf": "high", "notes": ""}], "intervals": [{"start": "2017-08-12", "end": "2017-09-13", "days": 32, "subs_start": 10000000, "subs_end": 11600000, "gain_per_30d": 1500000, "era_at_end": "YouTube vlog boom", "within_rounding": false}, {"start": "2017-09-13", "end": "2018-01-10", "days": 119, "subs_start": 11600000, "subs_end": 15000000, "gain_per_30d": 857143, "era_at_end": "Controversy & reset", "within_rounding": false}, {"start": "2018-01-10", "end": "2018-05-01", "days": 111, "subs_start": 15000000, "subs_end": 17000000, "gain_per_30d": 540541, "era_at_end": "Controversy & reset", "within_rounding": false}, {"start": "2018-05-01", "end": "2020-04-01", "days": 701, "subs_start": 17000000, "subs_end": 20900000, "gain_per_30d": 166904, "era_at_end": "Entrepreneur pivot", "within_rounding": false}, {"start": "2020-04-01", "end": "2022-06-01", "days": 791, "subs_start": 20900000, "subs_end": 23400000, "gain_per_30d": 94817, "era_at_end": "Prime & WWE ascent", "within_rounding": false}, {"start": "2022-06-01", "end": "2023-08-01", "days": 426, "subs_start": 23400000, "subs_end": 23600000, "gain_per_30d": 14085, "era_at_end": "Prime & WWE ascent", "within_rounding": false}, {"start": "2023-08-01", "end": "2026-07-18", "days": 1082, "subs_start": 23600000, "subs_end": 23600000, "gain_per_30d": 0, "era_at_end": "Mogul era", "within_rounding": true}, {"start": "2026-07-18", "end": "2026-11-02", "days": 107, "subs_start": 23600000, "subs_end": 23600000, "gain_per_30d": 0, "era_at_end": "Mogul era", "within_rounding": true}], "audience": [{"name": "Instagram", "v": 25900000, "when": "Sep 2026", "dated": true, "source": "Qoruz", "conf": "medium", "note": ""}, {"name": "YouTube (main)", "v": 23600000, "when": "Nov 2, 2026", "dated": true, "source": "vidIQ", "conf": "high", "note": ""}, {"name": "TikTok", "v": 18700000, "when": "Undated", "dated": false, "source": "Sportskeeda TikTok Wiki", "conf": "low", "note": "Page undated; conflicts with an older 15M figure from June 2022"}, {"name": "Vine (peak)", "v": 9400000, "when": "Shutdown, 2017", "dated": false, "source": "Business Insider / Forbes", "conf": "medium", "note": "Platform no longer exists"}, {"name": "X (Twitter)", "v": 6800000, "when": "Undated", "dated": false, "source": "Sportskeeda TikTok Wiki", "conf": "low", "note": ""}, {"name": "Second YouTube channel", "v": 6120000, "when": "Mar 2026", "dated": true, "source": "SpeakRJ", "conf": "medium", "note": ""}, {"name": "Impaulsive (YouTube)", "v": 4790000, "when": "Jul 2025", "dated": true, "source": "Net Influencer", "conf": "medium", "note": ""}], "ig": {"from": 22990770, "to": 25900000}, "events": [{"date": "2013-01-01", "prec": "year", "era": "Vine rise", "domain": "Vine", "category": "launch", "text": "Launches a Vine feed while attending Ohio University (exact start date not stated)", "source": "Know Your Meme", "url": "https://knowyourmeme.com/memes/logan-paul", "conf": "medium"}, {"date": "2013-10-18", "prec": "day", "era": "Vine rise", "domain": "YouTube", "category": "launch", "text": "Registers his first YouTube channel, TheOfficialLoganPaul", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "high"}, {"date": "2014-01-01", "prec": "year", "era": "Vine rise", "domain": "Multi-platform", "category": "pivot", "text": "Drops out of Ohio University and moves to Los Angeles to work in social media full time", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "high"}, {"date": "2015-01-01", "prec": "year", "era": "Vine rise", "domain": "Vine", "category": "milestone", "text": "Ranked the 10th most influential figure on Vine; six-second videos earn hundreds of thousands of dollars in ad revenue", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium"}, {"date": "2015-08-29", "prec": "day", "era": "Vine rise", "domain": "YouTube", "category": "launch", "text": "Creates the Logan Paul Vlogs channel, later his main channel", "source": "vidIQ", "url": "https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg", "conf": "high"}, {"date": "2016-07-27", "prec": "day", "era": "Vine rise", "domain": "Vine", "category": "milestone", "text": "9.3M Vine followers and 4B+ loops; says Vine has plateaued and he is looking beyond social media", "source": "AOL", "url": "https://www.aol.com/entertainment/2016-07-27-why-the-biggest-vine-star-is-ready-to-leave-the-platform-21439142.html", "conf": "medium"}, {"date": "2017-01-01", "prec": "month", "era": "YouTube vlog boom", "domain": "Vine", "category": "platform shutdown", "text": "Vine shuts down with Paul at roughly 9.4M followers (sources range 9.3M-9.47M)", "source": "Business Insider", "url": "https://www.businessinsider.nl/who-is-logan-paul-2018-2/", "conf": "medium"}, {"date": "2017-01-01", "prec": "year", "era": "YouTube vlog boom", "domain": "Business", "category": "launch", "text": "Launches the Maverick clothing line; Forbes estimates at least $12.5M in 2017 earnings, 4th-highest-paid YouTuber", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium"}, {"date": "2017-08-12", "prec": "day", "era": "YouTube vlog boom", "domain": "YouTube", "category": "milestone", "text": "Logan Paul Vlogs reaches 10M subscribers in 333 days, the fastest in YouTube history per YouTube", "source": "Tubefilter", "url": "https://www.tubefilter.com/?p=101164", "conf": "high"}, {"date": "2017-12-31", "prec": "day", "era": "Controversy & reset", "domain": "YouTube", "category": "controversy", "text": "Uploads a vlog filmed in Japan's Aokigahara forest that showed an apparent suicide victim; removed within about 24 hours after widespread criticism", "source": "Spin / Billboard", "url": "https://www.billboard.com/?p=8093815", "conf": "high"}, {"date": "2018-01-02", "prec": "day", "era": "Controversy & reset", "domain": "YouTube", "category": "controversy", "text": "Posts apologies, deletes the video and announces a break from YouTube", "source": "Billboard", "url": "https://www.billboard.com/?p=8093815", "conf": "high"}, {"date": "2018-01-10", "prec": "day", "era": "Controversy & reset", "domain": "YouTube", "category": "platform sanction", "text": "YouTube removes his channels from Google Preferred, puts YouTube Originals on hold and drops him from Foursome season 4; videos stay eligible for normal monetization", "source": "Billboard / Guardian via Yahoo", "url": "https://www.yahoo.com/news/youtube-finally-punishes-logan-paul-050249301.html", "conf": "high"}, {"date": "2018-05-01", "prec": "day", "era": "Controversy & reset", "domain": "YouTube", "category": "pivot", "text": "Ends daily vlogging at 17M subscribers; announces Impaulsive, a boxing match with KSI and a Twitch venture", "source": "Tubefilter", "url": "https://tubefilter.com/2018/05/01/logan-paul-ceases-daily-vlog/", "conf": "high"}, {"date": "2018-11-01", "prec": "month", "era": "Controversy & reset", "domain": "Podcast", "category": "launch", "text": "Launches the Impaulsive podcast", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "high"}, {"date": "2019-01-01", "prec": "year", "era": "Entrepreneur pivot", "domain": "Music", "category": "legal", "text": "Flobots sues over copyright infringement tied to his song 'No Handlebars'; he deletes the song from YouTube", "source": "Wikipedia", "url": "https://wikiwand.com/en/articles/Logan_Paul", "conf": "medium"}, {"date": "2021-01-01", "prec": "year", "era": "Entrepreneur pivot", "domain": "Crypto", "category": "launch", "text": "Introduces the CryptoZoo NFT game (year inferred from 2025 coverage: 'over four years since')", "source": "Tubefilter", "url": "https://www.tubefilter.com/?p=189260", "conf": "low"}, {"date": "2021-01-01", "prec": "year", "era": "Entrepreneur pivot", "domain": "YouTube", "category": "milestone", "text": "Named to Forbes' highest-paid YouTube creators list (also 2017 and 2018)", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium"}, {"date": "2022-01-04", "prec": "day", "era": "Prime & WWE ascent", "domain": "Business", "category": "launch", "text": "Announces Prime Hydration with KSI on a livestream", "source": "Know Your Meme", "url": "https://knowyourmeme.com/memes/cultures/prime-energy-drink", "conf": "high"}, {"date": "2022-11-05", "prec": "day", "era": "Prime & WWE ascent", "domain": "WWE", "category": "milestone", "text": "Faces Roman Reigns at WWE Crown Jewel; tears his meniscus and MCL", "source": "POST Wrestling", "url": "https://www.postwrestling.com/tag/logan-paul/page/6", "conf": "high"}, {"date": "2022-12-01", "prec": "month", "era": "Prime & WWE ascent", "domain": "Crypto", "category": "controversy", "text": "Coffeezilla publishes a CryptoZoo investigation series", "source": "AOL", "url": "https://www.aol.com/entertainment/logan-paul-says-calling-him-140551241.html", "conf": "medium"}, {"date": "2023-01-01", "prec": "month", "era": "Prime & WWE ascent", "domain": "Business", "category": "partnership", "text": "Prime becomes a UFC sponsor", "source": "F4W Online", "url": "https://www.f4wonline.com/news/wwe/logan-paul-responds-to-backlash-over-primes-wwe-ring-sponsorship", "conf": "high"}, {"date": "2023-01-01", "prec": "month", "era": "Prime & WWE ascent", "domain": "Crypto", "category": "controversy", "text": "Apologizes over the failure of CryptoZoo", "source": "Wikipedia (CryptoZoo)", "url": "https://en.wikipedia.org/wiki/CryptoZoo", "conf": "medium"}, {"date": "2023-02-01", "prec": "month", "era": "Prime & WWE ascent", "domain": "Crypto", "category": "legal", "text": "Class-action lawsuit filed over CryptoZoo (allegations only; Paul denies wrongdoing)", "source": "Fortune", "url": "https://fortune.com/crypto/2023/02/03/logan-paul-sued-for-alleged-cryptozoo-rug-pull", "conf": "high"}, {"date": "2023-03-31", "prec": "day", "era": "Prime & WWE ascent", "domain": "WWE", "category": "milestone", "text": "Faces Seth Rollins at WrestleMania 39", "source": "POST Wrestling", "url": "https://www.postwrestling.com/tag/logan-paul/page/6", "conf": "high"}, {"date": "2023-11-01", "prec": "month", "era": "Prime & WWE ascent", "domain": "WWE", "category": "milestone", "text": "Wins the WWE United States Championship", "source": "Wikipedia", "url": "https://wikiwand.com/en/articles/Logan_Paul", "conf": "medium"}, {"date": "2024-01-01", "prec": "month", "era": "Mogul era", "domain": "Crypto", "category": "legal", "text": "Announces a CryptoZoo buy-back using up to $2.3M of his own funds", "source": "OpenClassActions", "url": "https://openclassactions.com/lawsuits/logan-paul-cryptozoo-class-action-lawsuit.php", "conf": "medium"}, {"date": "2024-03-01", "prec": "month", "era": "Mogul era", "domain": "Business", "category": "partnership", "text": "Prime becomes WWE's Official Hydration Drink Partner with its logo in the center of the ring", "source": "Net Influencer", "url": "https://www.netinfluencer.com/logan-paul-impaulsive-podcast-joins-wwe-official-network/", "conf": "high"}, {"date": "2024-06-27", "prec": "day", "era": "Mogul era", "domain": "Legal", "category": "legal", "text": "Sues Stephen Findeisen (Coffeezilla) for defamation over CryptoZoo videos", "source": "The Block", "url": "https://www.theblock.co/post/302492/logan-paul-sues-coffeezilla-for-defamation-over-cryptozoo-coverage", "conf": "high"}, {"date": "2024-01-01", "prec": "year", "era": "Mogul era", "domain": "Business", "category": "launch", "text": "Lunchly, a kid-oriented meal kit, is launched with Feastables and Prime", "source": "Nosh", "url": "https://www.nosh.com/news/2024/creator-collab-feastables-and-prime-link-over-lunchly", "conf": "medium"}, {"date": "2025-07-14", "prec": "day", "era": "Mogul era", "domain": "Podcast", "category": "partnership", "text": "Impaulsive joins the WWE & Fanatics digital content network", "source": "WWE corporate", "url": "https://corporate.wwe.com/about/news/2025/07-14-2025", "conf": "high"}, {"date": "2025-08-18", "prec": "day", "era": "Mogul era", "domain": "Legal", "category": "legal", "text": "Magistrate judge recommends that Paul not face the CryptoZoo class action as then pleaded", "source": "Bloomberg Law", "url": "https://news.bloomberglaw.com/securities-law/logan-paul-shouldnt-battle-cryptozoo-suit-court-recommends", "conf": "medium"}, {"date": "2025-11-12", "prec": "day", "era": "Mogul era", "domain": "Legal", "category": "legal", "text": "Plaintiffs file a Second Amended Complaint; Paul moves to dismiss on 2026-01-30", "source": "OpenClassActions", "url": "https://openclassactions.com/lawsuits/logan-paul-cryptozoo-class-action-lawsuit.php", "conf": "medium"}, {"date": "2025-12-01", "prec": "month", "era": "Mogul era", "domain": "Business", "category": "business", "text": "Appointed General Partner of venture firm Anti Fund, co-founded by Jake Paul", "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium"}, {"date": "2026-01-07", "prec": "day", "era": "Mogul era", "domain": "WWE", "category": "business", "text": "Announces a new long-term WWE contract and says he is officially a full-timer", "source": "TJR Wrestling", "url": "https://tjrwrestling.net/news/logan-paul-truth-wwe-status/", "conf": "high"}, {"date": "2026-05-25", "prec": "day", "era": "Mogul era", "domain": "WWE", "category": "injury", "text": "WWE announces a torn triceps suffered at Saturday Night's Main Event; out for months", "source": "Bleacher Report", "url": "https://bleacherreport.com/articles/25430923-logan-paul-suffers-major-injury-wwes-snme-timeline-revealed-superstar", "conf": "high"}, {"date": "2026-07-15", "prec": "day", "era": "Mogul era", "domain": "Legal", "category": "legal", "text": "Coffeezilla defamation suit settled out of court and dismissed by Paul; terms undisclosed", "source": "Wikipedia (CryptoZoo)", "url": "https://en.wikipedia.org/wiki/CryptoZoo", "conf": "medium"}, {"date": "2026-11-02", "prec": "day", "era": "Mogul era", "domain": "YouTube", "category": "snapshot", "text": "Main channel at 23.6M subscribers with zero gained in the prior 28 days", "source": "vidIQ", "url": "https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg", "conf": "high"}], "eras": [{"name": "Vine rise", "start": "2013-01-01", "end": "2016-12-31", "summary": "Six-second comedy builds about 9.4M Vine followers; YouTube is a side channel"}, {"name": "YouTube vlog boom", "start": "2017-01-01", "end": "2017-12-30", "summary": "Vine closes; the daily vlog hits 10M subscribers in 333 days; Maverick merch"}, {"name": "Controversy & reset", "start": "2017-12-31", "end": "2018-12-31", "summary": "Aokigahara video, YouTube sanctions, end of daily vlogging, Impaulsive launches"}, {"name": "Entrepreneur pivot", "start": "2019-01-01", "end": "2021-12-31", "summary": "Boxing, podcast and early business bets; thinnest data coverage in this dataset"}, {"name": "Prime & WWE ascent", "start": "2022-01-01", "end": "2023-12-31", "summary": "Prime launches, WWE run begins, CryptoZoo fallout starts"}, {"name": "Mogul era", "start": "2024-01-01", "end": "2026-11-20", "summary": "WWE partnership and full-time deal, Lunchly, podcast network, lawsuits, subscriber plateau"}], "ventures": [{"venture": "Maverick", "category": "Merch and media brand", "launch": "2017", "metric": "Forbes estimated at least $12.5M in 2017 earnings (YouTube plus merch)", "basis": "Third-party estimate", "status": "Now also his WWE ring name", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium"}, {"venture": "Impaulsive", "category": "Podcast", "launch": "2018-11", "metric": "4.79M YouTube subscribers; about 1.5M average viewers per episode", "basis": "Press coverage and WWE press release", "status": "Weekly episodes; ad sales handled by Fanatics", "url": "https://corporate.wwe.com/about/news/2025/07-14-2025", "conf": "medium"}, {"venture": "CryptoZoo", "category": "Crypto and NFT game", "launch": "2021 (inferred)", "metric": "$2.3M buy-back pledge (Jan 2024)", "basis": "Paul's own announcement", "status": "Game never worked as advertised per plaintiffs (allegations); class action pending as of 2026-07-13; Coffeezilla defamation suit dismissed after settlement 2026-07-15", "url": "https://openclassactions.com/lawsuits/logan-paul-cryptozoo-class-action-lawsuit.php", "conf": "medium"}, {"venture": "Prime Hydration", "category": "Beverage", "launch": "2022-01-04", "metric": "$250M first-year sales; $1.2-1.3B in 2023; about $300M pace for 2025", "basis": "Paul's claim (2022); press reports (2023); sports-business reporter estimate (2025)", "status": "Unaudited claims and estimates; 2026 status not verified in this research", "url": "https://www.just-drinks.com/news/signal-marketing-marvel-prime-hydration-set-to-surpass-1-2bn-annual-sales", "conf": "low"}, {"venture": "Lunchly", "category": "Packaged food", "launch": "2024", "metric": "None found", "basis": "", "status": "Positioned as a better-for-you Lunchables competitor", "url": "https://www.nosh.com/news/2024/creator-collab-feastables-and-prime-link-over-lunchly", "conf": "medium"}, {"venture": "WWE career", "category": "Pro wrestling", "launch": "2022-2023 (sources conflict)", "metric": "US Champion Nov 2023; full-time contract Jan 2026", "basis": "Reported", "status": "Out with a torn triceps from May 2026; surgery recovery update Jul 2026", "url": "https://bleacherreport.com/articles/25430923-logan-paul-suffers-major-injury-wwes-snme-timeline-revealed-superstar", "conf": "medium"}, {"venture": "Anti Fund", "category": "Venture capital", "launch": "2025-12", "metric": "None found", "basis": "", "status": "Logan appointed General Partner", "url": "https://en.wikipedia.org/wiki/Logan_Paul", "conf": "medium"}]};
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const trim=(x,d)=>String(parseFloat(x.toFixed(d)));
+function fmt(n){const a=Math.abs(n);if(a>=1e9)return trim(n/1e9,2)+'B';if(a>=1e6)return trim(n/1e6,2)+'M';if(a>=1e3)return Math.round(n/1e3)+'K';return String(n);}
+function fd(iso,p){const q=iso.split('-').map(Number);if(p==='year'||p==='approx')return String(q[0]);if(p==='month')return MON[q[1]-1]+' '+q[0];return MON[q[1]-1]+' '+q[2]+', '+q[0];}
+function period(a,b){const x=a.split('-').map(Number),y=b.split('-').map(Number);
+  return x[0]===y[0]?MON[x[1]-1]+'–'+MON[y[1]-1]+' '+y[0]:MON[x[1]-1]+' '+x[0]+'–'+MON[y[1]-1]+' '+y[0];}
+const S=D.summary;
+
+$('#lede').textContent='Social media analytics for Logan Paul from his first Vine in 2013 to November 2026, built from '+S.snapshot_rows+' follower snapshots and '+S.event_count+' dated events in published sources.';
+
+$('#kpis').innerHTML=[
+ ['YouTube subscribers',fmt(S.youtube_main_subscribers),'Main channel, '+fd(S.as_of,'day')],
+ ['Lifetime views',fmt(S.youtube_main_total_views),S.lifetime_views_per_subscriber+' views per subscriber'],
+ ['Vine followers at shutdown',fmt(S.vine_followers_at_shutdown),'Sources range from 9.3M to 9.47M'],
+ ['Days to 10M subscribers',String(S.days_to_10m_subscribers),'Fastest in YouTube history, per YouTube']
+].map(k=>'<div class="kpi"><div class="kl">'+k[0]+'</div><div class="kv">'+k[1]+'</div><div class="ks">'+k[2]+'</div></div>').join('');
+
+const igGain=D.ig.to-D.ig.from;
+$('#finds').innerHTML=[
+ ['Fastest ramp, then a steady slowdown','The main channel reached 10M subscribers in '+S.days_to_10m_subscribers+' days. Its peak pace was about '+fmt(S.peak_growth.gain_per_30d)+' subscribers per 30 days in Aug–Sep 2017, and every later interval has been slower.'],
+ ['Sanctions and slowdown overlap','YouTube removed his channels from Google Preferred on Jan 10, 2018, ten days after the Aokigahara upload. Pace fell from about '+fmt(S.controversy_window.before_gain_per_30d)+' to '+fmt(S.controversy_window.after_gain_per_30d)+' per 30 days across that window, but daily vlogging also ended in May 2018, so the data cannot separate the two.'],
+ ['A flat main channel inside a bigger business','Since June 2022 the main channel added about '+fmt(S.plateau.subs_gained)+' subscribers in '+Math.round(S.plateau.months)+' months, within source rounding. It still draws about '+fmt(S.views_last_28d)+' views per 28 days, roughly '+fmt(S.annualized_views_at_current_pace)+' a year or '+S.annualized_pace_pct_of_lifetime_views+'% of lifetime views. Instagram added about '+fmt(igGain)+' over a similar span, per two secondary sources.']
+].map(f=>'<div class="find"><h3>'+f[0]+'</h3><p>'+f[1]+'</p></div>').join('');
+
+/* tooltip */
+const tip=$('#tip');
+function showTip(html,x,y){tip.innerHTML=html;tip.hidden=false;const r=tip.getBoundingClientRect();
+  let nx=x+14,ny=y+14;if(nx+r.width>innerWidth-8)nx=x-r.width-14;if(nx<8)nx=8;
+  if(ny+r.height>innerHeight-8)ny=y-r.height-14;if(ny<8)ny=8;tip.style.left=nx+'px';tip.style.top=ny+'px';}
+function hideTip(){tip.hidden=true;}
+function wireTips(el){
+  el.addEventListener('mousemove',e=>{const r=e.target.closest('[data-tip]');r?showTip(r.dataset.tip,e.clientX,e.clientY):hideTip();});
+  el.addEventListener('mouseleave',hideTip);
+  el.addEventListener('focusin',e=>{const r=e.target.closest('[data-tip]');if(r){const b=r.getBoundingClientRect();showTip(r.dataset.tip,b.left+b.width/2,b.bottom-8);}});
+  el.addEventListener('focusout',hideTip);
+}
+
+/* timeline chart */
+const tl=$('#c-tl');
+function drawTL(){
+  const W=Math.max(280,tl.clientWidth),H=300,m={l:40,r:50,t:34,b:28},iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const t0=Date.parse('2017-06-01'),t1=Date.parse('2026-12-31'),ymax=30e6;
+  const X=t=>m.l+(t-t0)/(t1-t0)*iw,Y=v=>m.t+ih-v/ymax*ih;
+  const pts=D.yt.map(p=>Object.assign({},p,{x:X(Date.parse(p.d)),y:Y(p.v)}));
+  let s='<svg width="'+W+'" height="'+H+'" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Line chart of main channel subscribers: 10 million in August 2017 rising to 23.6 million, flat since 2023">';
+  for(let v=0;v<=ymax;v+=5e6){s+='<line x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="var(--grid)"/><text class="ax" x="'+(m.l-8)+'" y="'+(Y(v)+4)+'" text-anchor="end">'+fmt(v)+'</text>';}
+  s+='<line x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+Y(0)+'" y2="'+Y(0)+'" stroke="var(--axis)"/>';
+  for(let yr=2018;yr<=2026;yr+=2){s+='<text class="ax" x="'+X(Date.parse(yr+'-01-01'))+'" y="'+(H-8)+'" text-anchor="middle">'+yr+'</text>';}
+  [['2018-01-10','Sanctions','start',4],['2022-01-04','Prime launch','middle',0],['2026-01-07','WWE deal','end',-4]].forEach(e=>{
+    const x=X(Date.parse(e[0]));
+    s+='<line x1="'+x+'" x2="'+x+'" y1="'+(m.t-10)+'" y2="'+Y(0)+'" stroke="var(--axis)"/><text class="ev" x="'+(x+e[3])+'" y="'+(m.t-16)+'" text-anchor="'+e[2]+'">'+e[1]+'</text>';});
+  const line=pts.map((p,i)=>(i?'L':'M')+p.x.toFixed(1)+' '+p.y.toFixed(1)).join(' ');
+  const last=pts[pts.length-1];
+  s+='<path d="'+line+' L'+last.x.toFixed(1)+' '+Y(0)+' L'+pts[0].x.toFixed(1)+' '+Y(0)+' Z" fill="var(--s1wash)"/>';
+  s+='<path d="'+line+'" fill="none" stroke="var(--s1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
+  pts.forEach(p=>{s+='<circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="4" fill="var(--s1)" stroke="var(--surface)" stroke-width="2"/>';});
+  s+='<text class="note-in" x="'+X(Date.parse('2023-07-01'))+'" y="'+(last.y-14)+'" text-anchor="middle">Flat at 23.6M since 2023</text>';
+  s+='<text class="endl" x="'+(last.x+9)+'" y="'+(last.y+4)+'">'+fmt(last.v)+'</text>';
+  s+='<line id="xh" y1="'+m.t+'" y2="'+Y(0)+'" stroke="var(--ink2)" visibility="hidden"/><circle id="xc" r="7" fill="none" stroke="var(--ink)" stroke-width="2" visibility="hidden"/>';
+  s+='<rect id="ov" x="'+m.l+'" y="0" width="'+iw+'" height="'+H+'" fill="transparent"/></svg>';
+  tl.innerHTML=s;
+  const ov=tl.querySelector('#ov'),xh=tl.querySelector('#xh'),xc=tl.querySelector('#xc');
+  function move(e){const b=tl.getBoundingClientRect(),mx=e.clientX-b.left;let best=pts[0];
+    pts.forEach(p=>{if(Math.abs(p.x-mx)<Math.abs(best.x-mx))best=p;});
+    xh.setAttribute('x1',best.x);xh.setAttribute('x2',best.x);xh.setAttribute('visibility','visible');
+    xc.setAttribute('cx',best.x);xc.setAttribute('cy',best.y);xc.setAttribute('visibility','visible');
+    showTip('<b>'+fmt(best.v)+' subscribers</b><br>'+fd(best.d,best.prec)+'<br><span>'+esc(best.source)+' · '+esc(best.conf)+' confidence'+(best.notes?'<br>'+esc(best.notes):'')+'</span>',e.clientX,e.clientY);}
+  ov.addEventListener('pointermove',move);ov.addEventListener('pointerdown',move);
+  ov.addEventListener('pointerleave',()=>{xh.setAttribute('visibility','hidden');xc.setAttribute('visibility','hidden');hideTip();});
+}
+if('ResizeObserver' in window)new ResizeObserver(drawTL).observe(tl);else{drawTL();addEventListener('resize',drawTL);}
+drawTL();
+$('#t-tl').innerHTML='<table><thead><tr><th>Date</th><th>Subscribers</th><th>Source</th><th>Confidence</th></tr></thead><tbody>'+
+  D.yt.map(p=>'<tr><td>'+fd(p.d,p.prec)+'</td><td class="num">'+p.v.toLocaleString('en-US')+'</td><td><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.source)+'</a></td><td>'+esc(p.conf)+'</td></tr>').join('')+'</tbody></table>';
+
+/* growth pace bars */
+const maxG=Math.max.apply(null,D.intervals.map(i=>i.gain_per_30d));
+const ci=$('#c-int');
+ci.innerHTML=D.intervals.map(i=>{
+  const r=Math.max(0,i.gain_per_30d)/maxG,lab=period(i.start,i.end);
+  const val=i.within_rounding?'≈0':fmt(i.gain_per_30d);
+  const t='<b>'+esc(lab)+'</b><br>'+fmt(i.subs_start)+' to '+fmt(i.subs_end)+' over '+i.days+' days<br>'+(i.within_rounding?'Change is within source rounding (0.1M)':'About '+fmt(i.gain_per_30d)+' subscribers per 30 days')+'<br><span>'+esc(i.era_at_end)+'</span>';
+  return '<div class="brow" tabindex="0" data-tip="'+esc(t)+'"><div class="blab">'+esc(lab)+'<small>'+i.days+' days</small></div><div class="btrack"><div class="bar" style="width:calc((100% - 64px) * '+r.toFixed(4)+')"></div><span class="bval">'+val+'</span></div></div>';
+}).join('');
+wireTips(ci);
+$('#t-int').innerHTML='<table><thead><tr><th>Period</th><th>From</th><th>To</th><th>Days</th><th>Per 30 days</th></tr></thead><tbody>'+
+  D.intervals.map(i=>'<tr><td>'+esc(period(i.start,i.end))+'</td><td class="num">'+i.subs_start.toLocaleString('en-US')+'</td><td class="num">'+i.subs_end.toLocaleString('en-US')+'</td><td class="num">'+i.days+'</td><td class="num">'+(i.within_rounding?'≈0 (within rounding)':i.gain_per_30d.toLocaleString('en-US'))+'</td></tr>').join('')+'</tbody></table>';
+
+/* audience bars */
+const maxA=Math.max.apply(null,D.audience.map(a=>a.v));
+const ca=$('#c-aud');
+ca.innerHTML=D.audience.map(a=>{
+  const t='<b>'+esc(a.name)+': '+fmt(a.v)+'</b><br>'+esc(a.when)+'<br><span>'+esc(a.source)+' · '+esc(a.conf)+' confidence'+(a.note?'<br>'+esc(a.note):'')+'</span>';
+  return '<div class="brow" tabindex="0" data-tip="'+esc(t)+'"><div class="blab">'+esc(a.name)+'<small>'+esc(a.when)+'</small></div><div class="btrack"><div class="bar'+(a.dated?'':' n')+'" style="width:calc((100% - 64px) * '+(a.v/maxA).toFixed(4)+')"></div><span class="bval">'+fmt(a.v)+'</span></div></div>';
+}).join('');
+wireTips(ca);
+$('#t-aud').innerHTML='<table><thead><tr><th>Account</th><th>Count</th><th>As of</th><th>Source</th><th>Confidence</th></tr></thead><tbody>'+
+  D.audience.map(a=>'<tr><td>'+esc(a.name)+'</td><td class="num">'+a.v.toLocaleString('en-US')+'</td><td>'+esc(a.when)+'</td><td>'+esc(a.source)+'</td><td>'+esc(a.conf)+'</td></tr>').join('')+'</tbody></table>';
+
+/* timeline list */
+const GROUPS={'Launches':['launch'],'Milestones':['milestone','snapshot','pivot','platform shutdown','injury'],'Business':['business','partnership'],'Controversy & legal':['controversy','legal','platform sanction']};
+let cur='All';
+function drawChips(){
+  $('#chips').innerHTML=['All'].concat(Object.keys(GROUPS)).map(g=>'<button class="chip" type="button" data-g="'+esc(g)+'" aria-pressed="'+(g===cur)+'">'+esc(g)+'</button>').join('');
+}
+function drawEvents(){
+  const list=D.events.filter(e=>cur==='All'||GROUPS[cur].indexOf(e.category)>-1).sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:0);
+  let h='';
+  D.eras.forEach(era=>{
+    const items=list.filter(e=>e.era===era.name);if(!items.length)return;
+    h+='<section class="era"><h3>'+esc(era.name)+'<span>'+era.start.slice(0,4)+'–'+era.end.slice(0,4)+'</span></h3><p>'+esc(era.summary)+'</p><ul>';
+    items.forEach(e=>{h+='<li><time>'+fd(e.date,e.prec)+'</time><div><p>'+esc(e.text)+'</p><div class="meta">'+esc(e.domain)+' · '+esc(e.category)+' · <a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.source)+'</a>'+(e.conf!=='high'?' · <span class="conf">'+esc(e.conf)+' confidence</span>':'')+'</div></div></li>';});
+    h+='</ul></section>';
+  });
+  $('#events').innerHTML=h||'<p class="cap">No events in this group.</p>';
+}
+$('#chips').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;cur=b.dataset.g;drawChips();drawEvents();});
+drawChips();drawEvents();
+
+/* ventures */
+$('#ventures').innerHTML='<table><thead><tr><th>Venture</th><th>Launch</th><th>Reported metric</th><th>Basis and status</th><th>Confidence</th></tr></thead><tbody>'+
+  D.ventures.map(v=>'<tr><td><a href="'+esc(v.url)+'" target="_blank" rel="noopener">'+esc(v.venture)+'</a><br><span class="meta">'+esc(v.category)+'</span></td><td>'+esc(v.launch)+'</td><td>'+esc(v.metric||'None found')+'</td><td>'+esc([v.basis,v.status].filter(Boolean).join('. '))+'</td><td>'+esc(v.conf)+'</td></tr>').join('')+'</tbody></table>';
+})();
+</script>
+
+</body></html>

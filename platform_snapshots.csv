@@ -1,0 +1,48 @@
+snapshot_date,date_precision,platform,account,metric,value,source,source_url,confidence,notes
+2013-12-31,approx,Vine,Logan Paul,followers,900000,The Post (Ohio University),https://www.thepostathens.com/r/48cfae681f,low,"Reported as 'more than 900K' after about seven months on Vine; article date not shown in search result"
+2014-02-01,month,Multi-platform,Aggregate,total_followers,3100000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,medium,"Aggregate across platforms; audiences overlap so not additive"
+2014-04-01,month,Twitter,@LoganPaul,followers,105000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,medium,
+2014-04-01,month,Instagram,@LoganPaul,followers,361000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,medium,
+2014-04-01,month,Facebook,Page,likes,31000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,medium,
+2014-04-01,month,YouTube,Unspecified channel,subscribers,150000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,medium,"Source does not name the channel; likely TheOfficialLoganPaul"
+2015-09-01,month,Vine,Logan Paul,followers,8400000,Know Your Meme,https://knowyourmeme.com/memes/logan-paul,medium,
+2015-09-01,month,Facebook,Page,likes,2200000,Know Your Meme,https://knowyourmeme.com/memes/logan-paul,medium,
+2015-09-01,month,Instagram,@LoganPaul,followers,1600000,Know Your Meme,https://knowyourmeme.com/memes/logan-paul,medium,
+2015-09-01,month,Twitter,@LoganPaul,followers,563000,Know Your Meme,https://knowyourmeme.com/memes/logan-paul,medium,
+2015-09-01,month,YouTube,Unspecified channel,subscribers,364000,Know Your Meme,https://knowyourmeme.com/memes/logan-paul,medium,"Source does not name the channel"
+2016-07-27,day,Vine,Logan Paul,followers,9300000,AOL,https://www.aol.com/entertainment/2016-07-27-why-the-biggest-vine-star-is-ready-to-leave-the-platform-21439142.html,medium,
+2016-07-27,day,Vine,Logan Paul,loops,4000000000,AOL,https://www.aol.com/entertainment/2016-07-27-why-the-biggest-vine-star-is-ready-to-leave-the-platform-21439142.html,medium,"Reported as 'over 4 billion' loops"
+2017-01-01,month,Vine,Logan Paul,followers,9400000,Business Insider / Forbes,https://www.businessinsider.nl/who-is-logan-paul-2018-2/,medium,"Count at shutdown; sources range 9.3M-9.47M and date the shutdown to 2016 or 2017"
+2017-08-12,day,YouTube,Logan Paul Vlogs,subscribers,10000000,Tubefilter,https://www.tubefilter.com/?p=101164,high,"333 days; fastest to 10M in YouTube history per YouTube"
+2017-09-13,day,YouTube,Logan Paul Vlogs,subscribers,11600000,Tubefilter,https://tubefilter.com/2017/09/13/logan-paul-fastest-creator-10-million-subscribers/,high,
+2017-09-13,day,YouTube,TheOfficialLoganPaul,subscribers,3600000,Tubefilter,https://tubefilter.com/2017/09/13/logan-paul-fastest-creator-10-million-subscribers/,low,"Source text truncated; figure attributed to his other channel"
+2018-01-10,day,YouTube,Logan Paul Vlogs,subscribers,15000000,Digital Trends (via Fox News),https://noticias.foxnews.com/tech/youtube-punishes-logan-paul-for-japan-suicide-forest-video.print,medium,"Reported as 'more than 15 million'; Billboard also gives 15M"
+2018-01-10,day,YouTube,Combined channels,subscribers,20000000,Polygon (via Yahoo News),https://www.yahoo.com/news/youtube-finally-punishes-logan-paul-050249301.html,low,"Reported as 'more than 20 million' across channels"
+2018-05-01,day,YouTube,Logan Paul Vlogs,subscribers,17000000,Tubefilter,https://www.tubefilter.com/2018/05/01/logan-paul-ceases-daily-vlog/amp/,high,
+2020-04-01,day,YouTube,Logan Paul Vlogs,subscribers,20900000,LatestLY,https://www.latestly.com/social-viral/happy-birthday-logan-paul-10-intriguing-facts-about-the-american-youtuber-that-you-may-not-have-known-1649862.html,medium,"Secondary source"
+2020-04-01,day,YouTube,TheOfficialLoganPaul,subscribers,5230000,LatestLY,https://www.latestly.com/social-viral/happy-birthday-logan-paul-10-intriguing-facts-about-the-american-youtuber-that-you-may-not-have-known-1649862.html,medium,"Secondary source"
+2022-06-01,month,YouTube,Logan Paul Vlogs,subscribers,23400000,Sportskeeda,https://wiki.sportskeeda.com/tiktok/who-is-logan-paul,medium,"Secondary aggregator"
+2022-06-01,month,Instagram,@LoganPaul,followers,22990770,Sportskeeda,https://wiki.sportskeeda.com/tiktok/who-is-logan-paul,medium,"Secondary aggregator"
+2022-06-01,month,Twitter,@LoganPaul,followers,6400000,Sportskeeda,https://wiki.sportskeeda.com/tiktok/who-is-logan-paul,medium,"Secondary aggregator"
+2022-06-01,month,TikTok,@LoganPaul,followers,15000000,Sportskeeda,https://wiki.sportskeeda.com/tiktok/who-is-logan-paul,low,"Listed as 'fans' on an aggregator"
+2023-06-30,day,YouTube,TheOfficialLoganPaul,subscribers,5500000,SpeakRJ (derived),https://www.speakrj.com/audit/report/UCbwMZHCMpBiOWfYLBOH-9Qw/youtube,low,"Derived: 6.12M minus the 620K gain SpeakRJ reports from 2023-06-30 to 2026-03-23"
+2023-08-01,month,YouTube,Logan Paul Vlogs,subscribers,23600000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,medium,
+2023-08-01,month,YouTube,Logan Paul Vlogs,total_views,6000000000,Wikipedia,https://en.wikipedia.org/wiki/Logan_Paul,low,"Reported as 'almost 6 billion'"
+2025-07-01,month,YouTube,Impaulsive,subscribers,4790000,Net Influencer,https://www.netinfluencer.com/logan-paul-impaulsive-podcast-joins-wwe-official-network/,medium,"From coverage of the WWE network deal"
+2025-07-14,day,YouTube,Impaulsive,avg_views_per_episode,1500000,WWE corporate,https://corporate.wwe.com/about/news/2025/07-14-2025,medium,"Described as average audience per YouTube episode; promotional press release"
+2025-07-21,day,YouTube,TheOfficialLoganPaul,subscribers,6100000,vidIQ,https://vidiq.com/youtube-stats/channel/UCbwMZHCMpBiOWfYLBOH-9Qw,high,
+2026-03-23,day,YouTube,TheOfficialLoganPaul,subscribers,6120000,SpeakRJ,https://www.speakrj.com/audit/report/UCbwMZHCMpBiOWfYLBOH-9Qw/youtube,medium,
+2026-07-18,day,YouTube,Logan Paul Vlogs,subscribers,23600000,SpeakRJ,https://www.speakrj.com/audit/report/UCG8rbF3g2AMX70yOd8vqIZg/youtube,medium,
+2026-07-18,day,YouTube,Logan Paul Vlogs,total_views,6200000000,SpeakRJ,https://www.speakrj.com/audit/report/UCG8rbF3g2AMX70yOd8vqIZg/youtube,medium,"Reported as 6.2B"
+2026-09-01,month,Instagram,@loganpaul,followers,25900000,Qoruz,https://qoruz.com/@LoganPaul/youtube,medium,"Page undated; YouTube figures on the same page are labeled Sep 2026"
+2026-09-01,month,Instagram,@loganpaul,engagement_rate_pct,0.45,Qoruz,https://qoruz.com/@LoganPaul/youtube,medium,
+2026-09-01,month,Instagram,@loganpaul,avg_likes,115100,Qoruz,https://qoruz.com/@LoganPaul/youtube,medium,
+2026-09-01,month,Instagram,@loganpaul,avg_reel_views,4400000,Qoruz,https://qoruz.com/@LoganPaul/youtube,medium,
+2026-11-02,day,YouTube,Logan Paul Vlogs,subscribers,23600000,vidIQ,https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg,high,
+2026-11-02,day,YouTube,Logan Paul Vlogs,total_views,6232548728,vidIQ,https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg,high,
+2026-11-02,day,YouTube,Logan Paul Vlogs,video_count,813,vidIQ,https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg,high,
+2026-11-02,day,YouTube,Logan Paul Vlogs,views_last_28d,8493954,vidIQ,https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg,high,
+2026-11-02,day,YouTube,Logan Paul Vlogs,subs_gained_last_28d,0,vidIQ,https://vidiq.com/youtube-stats/channel/UCG8rbF3g2AMX70yOd8vqIZg,high,
+,undated,TikTok,@loganpaul,followers,18700000,Sportskeeda TikTok Wiki,https://wiki.sportskeeda.com/tiktok-wiki/who-is-logan-paul,low,"Undated page (post-2023 based on its YouTube figure); excluded from time series"
+,undated,X (Twitter),@LoganPaul,followers,6800000,Sportskeeda TikTok Wiki,https://wiki.sportskeeda.com/tiktok-wiki/who-is-logan-paul,low,"Undated page; excluded from time series"
+,undated,Instagram,@loganpaul,followers,27000000,Sportskeeda TikTok Wiki,https://wiki.sportskeeda.com/tiktok-wiki/who-is-logan-paul,low,"Undated; conflicts with the 25.9M Qoruz figure, so Qoruz is used"

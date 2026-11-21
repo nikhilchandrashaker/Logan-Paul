@@ -1,0 +1,11 @@
+platform,account,metric,value,snapshot_date,confidence
+Instagram,@LoganPaul,followers,22990770.0,2022-06-01,medium
+Instagram,@loganpaul,followers,25900000.0,2026-09-01,medium
+TikTok,@LoganPaul,followers,15000000.0,2022-06-01,low
+Twitter,@LoganPaul,followers,6400000.0,2022-06-01,medium
+Vine,Logan Paul,followers,9400000.0,2017-01-01,medium
+YouTube,Combined channels,subscribers,20000000.0,2018-01-10,low
+YouTube,Impaulsive,subscribers,4790000.0,2025-07-01,medium
+YouTube,Logan Paul Vlogs,subscribers,23600000.0,2026-11-02,high
+YouTube,TheOfficialLoganPaul,subscribers,6120000.0,2026-03-23,medium
+YouTube,Unspecified channel,subscribers,364000.0,2015-09-01,medium

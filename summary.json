@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-11-02",
+  "youtube_main_subscribers": 23600000,
+  "youtube_main_total_views": 6232548728,
+  "vine_followers_at_shutdown": 9400000,
+  "youtube_to_vine_ratio": 2.51,
+  "days_to_10m_subscribers": 333,
+  "lifetime_views_per_subscriber": 264.1,
+  "views_last_28d": 8493954,
+  "annualized_views_at_current_pace": 110724757,
+  "annualized_pace_pct_of_lifetime_views": 1.78,
+  "subs_gained_last_28d": 0,
+  "peak_growth": {
+    "window": "2017-08-12 to 2017-09-13",
+    "gain_per_30d": 1500000
+  },
+  "plateau": {
+    "from": "2022-06-01",
+    "to": "2026-11-02",
+    "months": 53.1,
+    "subs_gained": 200000,
+    "gain_per_30d": 3770,
+    "note": "Sources round to 0.1M, so the true gain could be roughly 0.1M to 0.3M"
+  },
+  "controversy_window": {
+    "before_gain_per_30d": 857143,
+    "after_gain_per_30d": 540541,
+    "note": "Correlation only: daily vlogging also ended in May 2018 and growth was already slowing"
+  },
+  "event_count": 37,
+  "snapshot_rows": 47
+}
